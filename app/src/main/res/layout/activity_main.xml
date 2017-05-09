@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteColor"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/edt_userid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:hint="User ID"
+            android:maxLength="40"
+            android:textColor="@color/greyColor"
+            android:textColorHint="@color/greyColor"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLength="40"
+            android:textColor="@color/greyColor"
+            android:textColorHint="@color/greyColor"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/blue_facebook_button"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="Send"
+            android:textColor="@color/whiteColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_console"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:gravity="left"
+            android:text="Console"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/blackColor" />
+
+        <EditText
+            android:id="@+id/edt_console"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:focusable="false"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:inputType="none"
+            android:lines="15"
+            android:maxLines="15"
+            android:minLines="15"
+            android:padding="5dp"
+            android:scrollbars="vertical"
+            android:selectAllOnFocus="false"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/blackColor" />
+
+    </LinearLayout>
+
+</ScrollView>

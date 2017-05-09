@@ -1,0 +1,49 @@
+<resources>
+    <color name="transparent_blackColor">#90000000</color>
+    <color name="transparent_payment_process_blackColor">#90000000</color>
+    <color name="listDividerBorderColor">#8D8D8D</color>
+    <color name="listDividerBorderShadowColor">#50000000</color>
+    <color name="white_overlay">#60FFFFFF</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#000000</color>
+    <color name="tabsDividerColor">#c6c6c6</color>
+    <color name="greyColor">#737373</color>
+    <color name="blackColor">#000000</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="redColor">#FF0000</color>
+    <color name="redIncicatorColor">#F26879</color>
+    <color name="transparent_productdetail_background">#504E4E4E</color>
+    <color name="transparent_exchange_background">#504E4E4E</color>
+    <color name="transparent_whiteColor">#25FFFFFF</color>
+    <color name="owlClubGradientStart">#2B1C0E</color>
+    <color name="owlClubGradientEnd">#654321</color>
+    <color name="owlClubGradientStartGradient">#992B1C0E</color>
+    <color name="owlClubGradientEndGradient">#99654321</color>
+    <color name="transparent_owlClubGradientStart">#002B1C0E</color>
+    <color name="transparent_owlClubGradientEnd">#00654321</color>
+    <color name="blue_facebook_button">#3B579D</color>
+    <color name="favourie_text_coluer">#4A4A4A</color>
+    <color name="black_login_background">#80000000</color>
+    <color name="white_login_dialog_background">#90FFFFFF</color>
+    <color name="white_textview_background">#40FFFFFF</color>
+    <color name="black_product_item_background">#80000000</color>
+    <color name="white_login_textview">#D8D8D8</color>
+    <color name="cart_number_text_color">#4B3F32</color>
+    <color name="blackgrey_fav_gradient_color">#4C4C4C</color>
+    <color name="black_fav_gradient_color">#00000000</color>
+    <color name="grey_rect_box_color">#979797</color>
+    <color name="grey_message_in_color">#CECECE</color>
+    <color name="grey_5">#2B1C0E</color>
+    <color name="transparent">#00000000</color>
+    <color name="pink_1">#F28BA6</color>
+    <color name="gold_1">#784C26</color>
+    <color name="red_swipe_menu">#D0021B</color>
+    <color name="blue_swipe_menu">#1F64B4</color>
+    <color name="yellow_swipe_menu">#F5A623</color>
+    <color name="hintTextColor">#D8D8D8</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+</resources>
